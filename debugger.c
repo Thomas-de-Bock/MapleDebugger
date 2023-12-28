@@ -21,7 +21,7 @@ int debug_console(pid_t target) {
   char* inp_buffer = NULL;
   unsigned int inp_len;
   while(true) {
-    printf("dbg> ");
+    printf("maple> ");
     read = getline(&inp_buffer, &inp_len, stdin);
     if(read == -1) {
       printf("Invalid input\n");
