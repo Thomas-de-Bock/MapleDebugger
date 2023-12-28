@@ -1,4 +1,4 @@
-MapleDebugger is a 64-bit ELF debugger for Linux.
+MapleDebugger is a lightweight 64-bit ELF debugger for Linux.
 
 ## Starting
 `Maple inputfile` to start the debugger, breaking on the first instruction.
